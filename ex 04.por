@@ -3,20 +3,14 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num1
-		inteiro num2
-
+	inteiro contador
 		
-		escreva("Entre com o primeiro número: ")
-		leia(num1)
-		escreva("Entre com o segundo número:")
-		leia(num2)
+		para (contador=1; contador <=500; contador++)
 
-		se (num1 % num2 == 0) {
-		    escreva("É divisível")
-		}  senao {
-		    escreva("Não é divisível")}
-
+		se (contador % 5 == 0) {
+			escreva(contador, "\n")
+		}
+	
 	}
 }
 
@@ -25,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 281; 
+ * @POSICAO-CURSOR = 72; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

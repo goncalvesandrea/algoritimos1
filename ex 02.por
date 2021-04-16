@@ -3,25 +3,22 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num1
-
+	inteiro contador
 		
-		escreva("Entre com um número: ")
-		leia(num1)
+		para (contador=100; contador >=1; contador--)
 
-		se (num1 % 3 == 0) {
-		    escreva("É multiplo de 3")
-		}  senao {
-		    escreva("Não é multiplo de 3")}
-
+			escreva(contador, "\n")
+		
+	
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 218; 
+ * @POSICAO-CURSOR = 86; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

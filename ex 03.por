@@ -1,28 +1,20 @@
-programa
-{
-	
-	funcao inicio()
-	{
-		inteiro num1
+programa {
+	funcao inicio() {
+		inteiro numero
+		inteiro contador
+		
+		para (contador=100; contador <=200; contador++)
 
 		
-		escreva("Entre com um número: ")
-		leia(num1)
-
-		se (num1 % 5 == 0) {
-		    escreva("É divisível por 5")
-		}  senao {
-		    escreva("Não é divisível por 5")}
-
+		escreva(contador, "\n")
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 223; 
+ * @POSICAO-CURSOR = 104; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
